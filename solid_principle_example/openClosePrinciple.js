@@ -59,19 +59,19 @@ class PayViaUpi extends Payment {
 
 class PayViaBank extends Payment {
     pay() {
-        console.log("paying via upi")
+        console.log("paying via bank")
     }
 }
 
 class PayViaCreditCard extends Payment {
     pay() {
-        console.log("paying via upi")
+        console.log("paying via credit card")
     }
 }
 
 const upi=new PayViaUpi();
-const bank=new PayViaUpi();
-const card=new PayViaUpi();
+const bank=new PayViaBank();
+const card=new PayViaCreditCard();
 
 upi.pay()
 bank.pay()
