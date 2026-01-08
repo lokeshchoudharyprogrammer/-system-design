@@ -6,3 +6,5 @@ This repository contains examples related to system design principles.
 - Single Responsibility Principle example included.
 - Open/Closed Principle example included.
 - Liskov Substitution Principle example included.
+- Interface Segregation Principle example included.
+- Dependency Inversion Principle example included.
