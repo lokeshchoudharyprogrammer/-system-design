@@ -6,6 +6,12 @@ Strategy Pattern allows dynamic switching of behavior by delegating algorithms t
 strategy objects using composition instead of inheritance, improving scalability and adhering to
 the Open–Closed Principle.
 
+
+One Context
+Multiple interchangeable behaviors
+Behavior switch at runtime
+No if-else
+
 */
 
 class Payment {
@@ -30,6 +36,9 @@ class Bank extends Payment {
         console.log("Bank")
     }
 }
+
+
+// One Context
 
 class PaymentService {
 
