@@ -39,3 +39,10 @@ This section provides examples of creational Factory design patterns.
 *   **[Simple Factory](./4.Factory/1.SimpleFactory.js)**: A single factory class creates different types of `Course` objects based on an input string. This is a common idiom, but not an official Gang of Four (GoF) pattern.
 *   **[Factory Method](./4.Factory/2.FactoryMethod.js)**: This pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate. The example has different factory classes (`JsCourseFactory`, `SqlCourseFactory`) for creating different types of courses.
 *   **[Abstract Factory](./4.Factory/3.AbstractFactory.js)**: This pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes. The example shows how to create families of `FrontendCourse` and `BackendCourse` objects for different platforms (Web and Mobile).
+
+## 5. Singleton Pattern
+
+This section contains an example of the Singleton design pattern.
+
+*   **[Singleton](./5.Singleton%20Patterns/singleton.ts)**: This example implements a `Singleton` class that ensures only one instance of the class can be created.
+
