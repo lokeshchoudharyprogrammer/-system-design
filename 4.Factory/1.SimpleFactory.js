@@ -55,4 +55,5 @@ class CourseFactory {
 
 const courseFactory = new CourseFactory();
 const course = courseFactory.contentType("Basic");
+
 course.createCourse();

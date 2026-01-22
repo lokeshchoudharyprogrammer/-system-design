@@ -65,5 +65,6 @@ class SystemDesignCourseFactory extends CourseFactory {
 
 let factory = new JsCourseFactory();
 let course = factory.createCourse();
+
 course.createCourse();
 

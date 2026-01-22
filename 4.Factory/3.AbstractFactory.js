@@ -85,6 +85,7 @@ class MobileCourseFactory extends CourseFactory {
 
 
 function createPlatform(factory) {
+    
     const frontend = factory.createFrontend();
     const backend = factory.createBackend();
 
